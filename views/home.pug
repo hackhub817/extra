@@ -1,0 +1,131 @@
+doctype html
+head
+  meta(charset='utf-8')
+  title Brian L. Chen @ NTU
+  style
+      include ../static/style.css
+  meta(name='description' content="This is Brian L. Chen's NTU Homepage")
+  meta(name='author' content='Brian L. Chen')
+  meta(name='viewport' content='width=device-width, initial-scale=1')
+  link(rel='shortcut icon' type='image/png' href='assets/images/faviconntu.ico')
+  link(href='https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css' rel='stylesheet' integrity='sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk' crossorigin='anonymous')
+  link(rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css')
+  
+  link(rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css')
+  link(href='https://unpkg.com/aos@2.3.1/dist/aos.css' rel='stylesheet')
+  link(href='https://fonts.googleapis.com/css?family=Rubik:300,500,700' rel='stylesheet')
+  link(href='https://fonts.googleapis.com/css2?family=Mansalva&display=swap' rel='stylesheet')
+  // Global site tag (gtag.js) - Google Analytics
+  script(async='' src='https://www.googletagmanager.com/gtag/js?id=UA-167607612-1')
+  script.
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'UA-167607612-1');
+
+header.main-header
+  header.main-header
+    .col
+      nav.title
+      nav.title
+        .button.navitem1.piy
+          a(href='/home.pug' style='text-decoration: none;') Home 
+        .button.navitem1.piy
+          a(href='project.html' style='text-decoration: none;')  Project 
+        .button.navitem1.piy
+          a(href='/about.pug' style='text-decoration: none;')  About us
+        
+.key
+ #particle-container.ki
+ .contain
+   .intro
+     h1
+       | Hello 
+       span.wave &#x1F44B;&#x1F3FE;
+     p(style='font-weight:500; font-size:2.2em')
+       | I am Brian L. Chen.
+     p(data-aos='fade-right')
+       | &#x1F1ED;&#x1F1F0;&#x1F1F9;&#x1F1FC;&#x1F468;&#x1F3FE;&zwj;&#x1F393; 
+       br
+       |  I am currently a freshman pursuing a bachelor degree in 
+       a(href='https://management.ntu.edu.tw/en/IM' target='_blank' rel='noopener') Information Management
+       |           at 
+       a(href='https://www.ntu.edu.tw/english/index.html' target='_blank' rel='noopener')
+         | National Taiwan
+         | University
+       | . And before coming to NTU,
+       |           I previously went to The Chinese University of Hong Kong majoring in
+       |           Computer Science.
+     p(data-aos='fade-right')
+       | &#x1F4DA;&#x1F9D1;&#x1F3FE;&zwj;&#x1F4BB;&#x1F3CB;&#x1F3FE;&zwj;&male;&#xFE0F;&#x1F4AA;&#x1F3FE;&#x1F3BE;&#x1F4D6;&#x1F3CA;&#x1F3FE;&zwj;&male;&#xFE0F;&#x1F6B4;&#x1F3FE;&zwj;&#x1F3C3;&#x1F3FE;&zwj;&male;&#xFE0F;&#x1F3C8;
+       br
+       |           Besides studying and programming, I like working out, bodyweight training, playing tennis, reading books,
+       |           self-learning, swimming, cycling, running, playing and watching American football.
+     p(data-aos='fade-right')
+       | You may have guessed it, I like doing sports in general. I am in the college-wide
+       | tennis team, department-wide swimming team, badminton team, and volleyball team.
+     p(data-aos='fade-right')
+       | &#x1F481;&#x1F3FE;&zwj;&male;&#xFE0F;&phone;&#xFE0F;
+       br
+       |           If you want to know more about me, please visit 
+       a(href='https://icheft.github.io/menu/about' target='_blank' rel='noopener') here
+       | . 
+       |           You can also check out the 
+       a(href='https://icheft.github.io/menu/contact' target='_blank' rel='noopener') Contact page
+       |           and drop me a message. Both of the links are 
+       a(href='https://icheft.github.io/' target='_blank' rel='noopener')
+         | on my
+         | official site
+       | .
+   .d-flex.justify-content-center(data-aos='zoom-out')
+     .btn-group.mt-2.mb-4(role='group' aria-label='actionButtons')
+       a#btn-outline1.d-block.btn.btn-outline-dark(href='assets/doc/2020-05-06-cv.pdf' target='_blank' rel='noopener')
+         | Download My CV
+         i.far.fa-id-badge.ml-2
+       a#btn-outline2.d-block.btn.btn-outline-dark(href='https://icheft.github.io/' target='_blank' rel='noopener')
+         | Visit My Official Website
+         i.fas.fa-external-link-square-alt.ml-2
+   .d-flex.justify-content-center(data-aos='fade-up')
+     .social-icons.spinned
+       a.item.linkedin(href='https://www.linkedin.com/in/brianlhchen/' target='_blank' rel='noopener')
+         i.fab.fa-linkedin
+       a.item.github(href='https://github.com/icheft' target='_blank' rel='noopener')
+         i.fab.fa-github
+       a.item.instagram(href='https://instagram.com/brian_lxchen' target='_blank' rel='noopener')
+         i.fab.fa-instagram
+       a.item.facebook(href='https://facebook.com/brian.lxchen' target='_blank' rel='noopener')
+         i.fab.fa-facebook
+       a.item(href='mailto:brian.lxchen@gmail.com')
+         i.fa.fa-envelope
+   footer.footer
+     | &copy; 
+     script.
+       document.write(new Date().getFullYear());
+     |  Brian L. Chen. All rights reserved.
+     br
+     span(style='font-size:0.8em')
+       | Source code of this site is held on 
+       a(href='https://github.com/icheft/ntu-homepage' target='_blank' rel='noopener') GitHub
+       i.fas.fa-heart(style='color: red')
+       |  by 
+       a(href='https://github.com/icheft' target='_blank' rel='noopener') @icheft
+       | .
+     br
+     .d-flex.justify-content-center
+       .theme-switch-wrapper
+         label.theme-switch(for='checkbox')
+           input#checkbox(type='checkbox')
+           .slider.round
+         em#dark-mode-prompt Light Mode On
+ script(src='https://unpkg.com/aos@2.3.1/dist/aos.js')
+ script.
+   AOS.init();
+ script(src='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/js/all.min.js')
+ script(src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js')
+ script(src='https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js' integrity='sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI' crossorigin='anonymous')
+ script(src='https://cdn.jsdelivr.net/mojs/0.265.6/mo.min.js')
+ script(src='https://cdn.jsdelivr.net/mojs-player/0.43.15/mojs-player.min.js')
+ script(src='https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js')
+ // <script src="assets/js/mojs.js"></script>
+ script(src='assets/js/main.js')
+ script(src='assets/js/particle-script.js')
